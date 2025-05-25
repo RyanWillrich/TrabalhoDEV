@@ -131,17 +131,20 @@ strong{
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 55%;
     margin: 40px 0;
 }
 
 .aplicativo-image img{
-    width: 500px;
+    width: 115%;
     height: auto;
 }
 
 .alternative-text{
     max-width: 50%;
+    padding-right: 80px;
 }
+
 
 .alternative-text p{
     flex: 1;
