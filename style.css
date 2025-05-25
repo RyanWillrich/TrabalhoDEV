@@ -258,3 +258,54 @@ width: 100%;
     color: #808285;
     font-size: .75rem;
 }
+
+.container-preco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: 40px;
+}
+
+.container-preco h2{
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    margin: 0;
+    line-height: 1.2;
+    position: absolute;
+    left: 65%;
+    top: 25%;
+    color: #fff;
+}
+
+.container-preco #connected{
+    position: absolute;
+    left: 61.05%;
+    top: 32%;
+    color: #fff;
+    font-size: 36px;
+}
+
+.container-preco #partir{
+    position: absolute;
+    left: 63%;
+    top: 38%;
+    color: #ffffff;
+    font-size: 42px;
+}
+
+#frete{
+    position: absolute;
+    left: 58%;
+    top: 48%;
+    color: #686767;
+    font-size: 13px;
+}
+.container-preco p{
+    position: absolute;
+    left: 58%;
+    top: 42%;
+    color: #686767;
+    font-size: 10px;
+}
