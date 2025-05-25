@@ -92,7 +92,7 @@ p{
 
 .texto-titulo{
     display: flex;
-    width: 40%;
+    width: 30%;
     flex-direction: column;
 }
 
@@ -150,95 +150,95 @@ strong{
 }
 
 .top-bar {
-      background-color: #2f3742;
-      height: 20px;
+        background-color: #2f3742;
+        height: 20px;
     }
 
     .header {
-      background-color: #fff;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 15px 30px;
-      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-      position: fixed;
-      width: 100%;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+        position: fixed;
+        width: 100%;
     }
 
     .logo {
-      display: flex;
-      align-items: center;
+        display: flex;
+        align-items: center;
     }
 
     .logo img {
-      height: 60px;
-      margin-right: 40px;
+        height: 60px;
+        margin-right: 40px;
     }
 
     .menu {
-      display: flex;
-      gap: 25px;
+        display: flex;
+        gap: 25px;
     }
 
     .menu a {
-      text-decoration: none;
-      color: #333;
-      font-weight: bold;
-      text-transform: uppercase;
-      font-size: 14px;
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 14px;
     }
 
     .right-icons {
-      display: flex;
-      align-items: center;
-      gap: 20px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
     }
 
     .right-icons i {
-      font-size: 18px;
-      cursor: pointer;
+        font-size: 18px;
+        cursor: pointer;
     }
 
     .login {
-      display: flex;
-      align-items: center;
-      gap: 5px;
-      font-size: 14px;
-      text-transform: uppercase;
-      color: #333;
-      font-weight: bold;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #333;
+        font-weight: bold;
     }
 
     .right-icons .icon {
-      font-size: 18px;
+        font-size: 18px;
     }
 
-     body {
-      margin: 0;
-      font-family: Arial, sans-serif;
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
     }
 
     footer {
-      background-color: #121212;
-      padding: 40px 20px;
-      display: flex;
-      justify-content: center;
+        background-color: #121212;
+        padding: 40px 20px;
+        display: flex;
+        justify-content: center;
     }
 
     .social-icons {
-      display: flex;
-      gap: 500px;
+        display: flex;
+        gap: 500px;
     }
 
     .social-icons a {
-      color: #fff;
-      font-size: 20px;
-      text-decoration: none;
-      display: flex;
-      justify-content: space-around;
-      width: 10px;
-      height: 35px;
-     }
+        color: #fff;
+        font-size: 20px;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-around;
+        width: 10px;
+        height: 35px;
+    }
 
 
 
