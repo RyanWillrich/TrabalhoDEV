@@ -100,9 +100,30 @@ p{
 }
 
 .container-partes p{
-    font-size: 12px;
+    font-size: 15px;
     line-height: 1.6;
-    max-width: 90%;
+    width: 30%;
+}
+
+strong{
+    color: #333030;
+}
+
+.container-design{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-design img{
+    width: 33.06%;
+    margin: 40px 0.3px;
+}
+
+.container-design p{
+    font-size: 15px;
+    line-height: 1.6;
     width: 30%;
 }
 
