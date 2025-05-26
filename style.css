@@ -240,18 +240,28 @@ footer {
     height: 35px;
 }
 
-.banner-pecas-genuinas img{
-width: 100%;
-}
-
-.yamalube {
-    text-align: center;
+.banner-pecas-genuinas img {
+    margin-top: 80px;
+    width: 100%;
 }
 
 .pecas-genuinas {
     text-align: center;
+}
+
+.pecas-genuinas img {
+    width: 100%;
+    max-width: 1366px;
+}
+
+.pecas-genuinas-h2 {
+    text-align: center;
     color: #0744de;
-    font-family: 'estricta', sans-serif;
+    font-size: 32px;
+}
+
+.aviso-fraude {
+    margin: 50px 150px;
 }
 
 .aviso {
@@ -259,7 +269,7 @@ width: 100%;
     font-size: .75rem;
 }
 
-.container-preco{
+.container-preco {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -268,7 +278,7 @@ width: 100%;
     margin-top: 40px;
 }
 
-.container-preco h2{
+.container-preco h2 {
     font-family: Arial, sans-serif;
     font-size: 36px;
     margin: 0;
@@ -279,7 +289,7 @@ width: 100%;
     color: #fff;
 }
 
-.container-preco #connected{
+.container-preco #connected {
     position: absolute;
     left: 61.05%;
     top: 32%;
@@ -287,7 +297,7 @@ width: 100%;
     font-size: 36px;
 }
 
-.container-preco #partir{
+.container-preco #partir {
     position: absolute;
     left: 63%;
     top: 38%;
@@ -295,14 +305,15 @@ width: 100%;
     font-size: 42px;
 }
 
-#frete{
+#frete {
     position: absolute;
     left: 58%;
     top: 48%;
     color: #686767;
     font-size: 13px;
 }
-.container-preco p{
+
+.container-preco p {
     position: absolute;
     left: 58%;
     top: 42%;
@@ -315,9 +326,7 @@ width: 100%;
     gap: 10px;
     justify-content: center;
     flex-wrap: wrap;
-  
-   
-   
+    margin: 0 90px;
 }
 
 .card {
@@ -325,26 +334,41 @@ width: 100%;
     border-radius: 12px;
     text-align: center;
     transition: 0.3ms;
+}
 
- }
-
- .card:hover {
+.card:hover {
     transform: translateY(-5px);
- }
+}
 
- .btn{
+.btn {
     border-radius: 18px;
-     padding: 12px;
-     font-size: 16px;
-     font-weight: bold;
-     
-     
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
- .btn:hover {
-    transform: scale(1.05);      
+.btn:hover {
+    transform: scale(1.05);
 }
 
-.card-content  h2 {
+.card-content h2 {
     font-size: 14px;
+}
+
+.voltar-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    color: darkgray;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 100%;
+    font-size: 16px;
+    box-shadow: 0 2px 6px grey;
+}
+
+.voltar-topo:hover {
+    background-color: grey;
+    color: black;
 }
